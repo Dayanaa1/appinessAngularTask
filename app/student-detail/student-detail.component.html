@@ -1,0 +1,12 @@
+<body>
+  <div class="grid raisedbox">
+    <a *ngFor="let student of studentsData" class="col-1-4">
+      <div class="module">
+        <h4 class="badge">RollNo : {{student.RollNo}}</h4>
+        <h4 class="badge">Name : {{student.Name}}</h4>
+        <h4><input [(ngModel)]="student.Marks"  
+                (change)="valueChnaged(student)" placeholder="Marks"></h4>
+      </div>
+    </a>
+  </div>
+  </body>

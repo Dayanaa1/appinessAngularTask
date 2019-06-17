@@ -1,0 +1,49 @@
+[class*='col-'] {
+    float: inherit;
+    padding-right: 2px;
+    padding-bottom: 5px;
+  }
+    [class*='col-']:last-of-type {
+      padding-right: 0;
+    }
+  a {
+    text-decoration: none;
+  }
+  *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .raisedbox {
+    padding: 10px;
+    border: 1px solid #2f3133;
+    box-shadow: -1px 1px #2f3133, -2px 2px #2f3133, -3px 3px #2f3133, -4px 4px #2f3133, -5px 5px #2f3133;
+  }
+  .grid {
+    margin: 0;
+  
+  }
+  .col-1-4 {
+    width: 1%;
+  }
+  .module {
+    padding: 5px;
+    text-align: left;
+    color: #eee;
+    background-color: #2f3133;
+    border-radius: 2px;
+  }
+  
+    .module:hover {
+      background-color: #eee;
+      cursor: pointer;
+      color: #070707;
+    }
+  
+  body {
+    background-color: #d0deed;
+  }
+    .module {
+      min-width: 60px;
+    }
+  

@@ -1,0 +1,22 @@
+<form [formGroup]="employeeFrom" (ngSubmit)="onSubmitEmployee(employeeFrom.value)">
+  <div class="example-container">
+      <mat-form-field [ngClass]="{'text-success':true}">
+          <input matInput placeholder="Enter your name" formControlName="name" #name>
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput placeholder="Enter your age" formControlName="age" #age>
+  </mat-form-field>
+
+  <mat-form-field>
+      <input matInput placeholder="Enter your course" formControlName="course" #course>
+</mat-form-field>
+
+<div class="example-button-row">
+    <button mat-raised-button color="primary">Save</button>
+ 
+</div>
+</div>
+</form>
+
+<!-- <ng-template>Hello World</ng-template> -->
